@@ -1,48 +1,58 @@
 # Chelsi's Little Corner
 
-A private interactive website made by Raj for Chelsi: scrapbook, memory box, secret room, song centerpiece, contribution space, and a soft doorway back to normal conversation.
+This repo is now set up for a simple Netlify deploy.
 
-## Setup
+Netlify should publish the `site` folder. The root `netlify.toml` already tells Netlify that, so you can deploy from GitHub without touching the older Next.js files.
 
-1. Install dependencies:
+## Deploy On Netlify
 
-```bash
-npm install
+1. Push this folder to GitHub.
+2. In Netlify, choose **Add new site** -> **Import an existing project**.
+3. Pick your GitHub repo.
+4. Netlify should read `netlify.toml` automatically.
+5. Use these settings if Netlify asks:
+
+```txt
+Build command: echo Static site ready
+Publish directory: site
 ```
 
-2. Create `.env` from `.env.example` and change every secret:
+6. Click **Deploy site**.
+
+## Preview Locally
 
 ```bash
-ADMIN_EMAIL=raj@example.com
-ADMIN_PASSWORD=use-a-private-password
-SESSION_SECRET=use-a-long-random-string
-DATABASE_PATH=./data/chelsi.sqlite
+node preview-server.cjs
 ```
 
-3. Run the app:
+Then open:
 
-```bash
-npm run dev
+```txt
+http://127.0.0.1:4173
 ```
 
-Open `http://127.0.0.1:3000`.
+## Editing Content
 
-## Admin
+Most text, cards, story entries, notes, prompts, photos, and the song settings are in:
 
-Open `/admin` and sign in with the email/password from `.env`.
+```txt
+site/content.json
+```
 
-The admin dashboard manages homepage cards, story timeline entries, private notes, open-when envelopes, gallery photos, the current song and archived songs, observations, scenarios, Back to Us prompts, Easter eggs, user submissions, and activity.
+Photos and audio are in:
 
-Admin credentials are only checked server-side. They are not shipped in frontend code.
+```txt
+site/assets
+```
 
-## Privacy
+Keep the file names in `content.json` matching the files in `site/assets`.
 
-Activity tracking is intentionally limited to visit/session events, opened pages, approximate duration, broad device category, and interaction metadata. It does not collect GPS, exact location, contacts, camera, microphone, private files, or hidden personal data.
+## Chelsi Submissions
 
-## Uploads
+The **Your Side** form uses Netlify Forms. After deployment, submissions appear in your Netlify dashboard under **Forms**.
 
-Admin uploads are stored in `public/uploads`. Supported files are JPG, PNG, WEBP, MP3, WAV, and OGG under 12 MB.
+## Important
 
-## Notes
+This Netlify version is intentionally static so it deploys easily. It keeps the same website/interface, music player, secret room, gallery, notes, open-when envelopes, and Back to Us page.
 
-The app seeds initial sample content from the included photos and `song.mp3`. Replace all sample text, photos, songs, prompts, and secrets from the admin panel whenever Raj is ready.
+There is no private server database/admin login in this simple version. To change public content, edit `site/content.json` and redeploy.

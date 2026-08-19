@@ -1,0 +1,83 @@
+{
+  "settings": {
+    "greeting": "Hey, Chelsiiii 💗",
+    "subheading": "You found your way back here.",
+    "gentleNote": "Some things don't need to happen every day to still matter.",
+    "rotatingMessages": [
+      "Okay, you actually came back 😂",
+      "I was wondering when you'd find this.",
+      "There are probably things here you haven't discovered yet.",
+      "No pressure. Just look around.",
+      "Some things are better kept here."
+    ]
+  },
+  "cards": [
+    ["📖", "Our Story", "The things we've been through.", "story"],
+    ["💌", "Things I Never Said", "Things that are easier to write here.", "notes"],
+    ["🗝️", "Secret Room", "There might be something hidden.", "secrets"],
+    ["🎁", "Open When...", "For different versions of you.", "open"],
+    ["🎧", "If Our Situation Was a Song...", "One song that says what words can't.", "song"],
+    ["🫶", "You, According to Me", "Things I've noticed.", "you"],
+    ["🌌", "If We Could...", "Just hypothetical... maybe.", "could"],
+    ["💬", "Back to Us", "Maybe we can just talk normally again.", "back"]
+  ],
+  "story": [
+    ["The beginning", "Somewhere at the start", "The part where ordinary conversations quietly became something I kept looking forward to.", "No dramatic music. Just the start."],
+    ["First conversations", "Early days", "Tiny messages, random topics, and that comfortable feeling of not needing to perform.", "This is where the little world began."],
+    ["Funny moments", "Whenever we forgot to be serious", "The jokes, the teasing, and the parts that probably make no sense to anyone else.", "Some memories are basically nonsense with meaning."],
+    ["The difficult communication period", "A real chapter", "This happened. We went through it. We're still here. No pressure, no blame, just a page that remembers gently.", "Whenever you're comfortable, this place is here."],
+    ["August 11, 2026", "2026-08-11", "A date with its own quiet underline. Replace this with the real memory when ready.", "Marked, but not overexplained."],
+    ["What comes next", "Later", "Maybe nothing huge. Maybe just talking normally again. Either way, the door stays soft.", "Small steps count."]
+  ],
+  "notes": [
+    ["Something I wanted to tell you", "A small truth", "I made this so there would be a place where things could wait patiently.", false],
+    ["Something I misunderstood", "A softer version", "Sometimes silence is not distance. Sometimes it is just life being complicated.", false],
+    ["Something I was scared to say", "Locked little note", "This one unlocks after you find five stars in the Secret Room.", true],
+    ["Something I hope you know", "No pressure", "You never have to rush back here. It still counts, even quietly.", false]
+  ],
+  "openWhen": [
+    ["Open when you're missing me", "Here is a tiny normal thing: I hope you drank water today. Very emotional, I know."],
+    ["Open when you're having a bad day", "No fixing speech. Just this: breathe, unclench your jaw, and take the day in smaller pieces."],
+    ["Open when you need to laugh", "Imagine me trying to act mysterious while building an entire secret website. Exactly."],
+    ["Open before you sleep", "Goodnight, Chelsiiii. Nothing demanding. Just a soft place to end the day."]
+  ],
+  "photos": [
+    ["assets/photos-1.jpeg", "Favorite moments", "Memory 1", "Replace this caption with the real story.", true],
+    ["assets/photos-2.jpeg", "Random things", "Memory 2", "A small piece of the scrapbook.", false],
+    ["assets/photos-3.jpeg", "Favorite moments", "Memory 3", "The kind of thing that belongs here.", false],
+    ["assets/photos-4.jpeg", "Places", "Memory 4", "Some pages do not need too many words.", false],
+    ["assets/photos-5.jpeg", "Screenshots", "Memory 5", "Saved because it mattered somehow.", false]
+  ],
+  "song": {
+    "title": "The song for now",
+    "artist": "Raj",
+    "artwork": "assets/photos-1.jpeg",
+    "audio": "assets/song.mp3",
+    "intro": "If I had to explain us without saying anything...\n\nI'd probably play you this.",
+    "why": "I don't know if this song explains everything... but somehow it says the things I don't know how to.",
+    "caption": "Current chapter"
+  },
+  "archivedSongs": [
+    ["A song from another time", "Archived", "assets/photos-2.jpeg", "This one belonged to a different version of us."]
+  ],
+  "observations": [
+    ["Things I noticed about you", "You have a way of making small replies feel like they have a whole expression behind them."],
+    ["Things that make you laugh", "Randomly specific stupidity. Especially when nobody else would understand why it is funny."],
+    ["Little habits", "The pauses, the typing rhythm, the way you say things without making them too obvious."],
+    ["Things you probably don't realize I notice", "When you are careful with words because life around you is not always simple."]
+  ],
+  "scenarios": [
+    ["If we had one completely free day", "No huge plan. Food, a walk, music in the background, and zero pretending to be busy."],
+    ["If we could randomly travel somewhere", "Some place with lights at night and enough quiet that conversation can wander."],
+    ["If we met for the first time today", "I think I would still notice you. Annoyingly quickly, probably."],
+    ["If we could disappear for a day", "Phones quiet. No explanations. Just a day that belongs to nobody else."]
+  ],
+  "prompts": [
+    ["Random talks", "So... what were you doing today?"],
+    ["Stupid questions", "Okay, important question 👀"],
+    ["Random talks", "Tell me something random."],
+    ["Inside jokes", "I have something stupid to tell you 😂"],
+    ["Late-night conversations", "Rate your day out of 10."],
+    ["Arguments 😂", "Your turn. Start the conversation."]
+  ]
+}
